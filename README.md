@@ -7,15 +7,19 @@ building chrome extension which scraps data from ecommerce site and sent it to s
 
 ```bash
   # client which is chrome extension
+
   $ cd client
   $ npm install
   $ npm run build
+
   # upload this build folder into the extension tab of chrome
 ```
 
 ```bash
   # server which store data into our database
+
   $ cd server
+  $ change .env.example to .env
   $ docker-compose up --build
 ```
 
