@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Scrapper",
+  "description": "This extension will scrape data from e-commerce website.",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "Scrapper",
+    "default_popup": "index.html",
+    "default_icon": "logo192.png"
+  },
+  "host_permissions": [
+    "https://www.kapadaa.com/*, http://localhost:4001/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

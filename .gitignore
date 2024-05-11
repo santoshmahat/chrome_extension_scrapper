@@ -1,0 +1,12 @@
+# Ignore frontend-specific files
+client/build
+client/node_modules
+client/.env
+
+# Ignore backend-specific files
+server/dist
+server/node_modules
+server/.env
+
+# OS
+.DS_Store
