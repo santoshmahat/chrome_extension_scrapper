@@ -26,9 +26,9 @@ building chrome extension which scraps data from ecommerce site and sent it to s
     - name
     - description
     - price
-    - source - which helps in visualization and analysis of data 
+    - source - There might be various source like ecommerce, alibaba, daraz etc as application grows which helps in visualization and analysis of data 
     - image_url
-    - entity - There might be various entity like product, order, shipments etc later on, from a single source
+    - entity - There might be various entity like product, order, shipments etc in a single source as application grows which helps in visualization and analysis of data
 
 ## Chrome extension popup
 
